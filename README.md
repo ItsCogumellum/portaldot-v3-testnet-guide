@@ -6,18 +6,18 @@
 ## Contents
 
 1. [Basic Information](#1-basic-information)
-   - [1.1 Endpoints and Token](#11-endpoints-and-token)
-   - [1.2 Node Explorer](#12-node-explorer)
-   - [1.3 Sample Code](#13-sample-code)
+- [1.1 Endpoints and Token](#11-endpoints-and-token)
+- [1.2 Node Explorer](#12-node-explorer)
+- [1.3 Sample Code](#13-sample-code)
 2. [Native Asset Modules](#2-native-asset-modules)
-   - [2.1 Assets](#21-assets)
-   - [2.2 Uniques](#22-uniques)
-   - [2.3 Nfts](#23-nfts)
+- [2.1 Assets](#21-assets)
+- [2.2 Uniques](#22-uniques)
+- [2.3 Nfts](#23-nfts)
 3. [Solidity Contracts](#3-solidity-contracts)
-   - [3.1 Tool Setup](#31-tool-setup)
-   - [3.2 Contract Deployment](#32-contract-deployment)
-   - [3.3 Contract Interaction](#33-contract-interaction)
-   - [3.4 Example](#34-example)
+- [3.1 Tool Setup](#31-tool-setup)
+- [3.2 Contract Deployment](#32-contract-deployment)
+- [3.3 Contract Interaction](#33-contract-interaction)
+- [3.4 Example](#34-example)
 
 **Sample code** (in the [`demo/`](demo/) folder):
 
