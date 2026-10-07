@@ -18,6 +18,7 @@
 - [3.2 Contract Deployment](#32-contract-deployment)
 - [3.3 Contract Interaction](#33-contract-interaction)
 - [3.4 Example](#34-example)
+4. [Mainnet 3.0 FAQ](FAQ.md)
 
 **Sample code** (in the [`demo/`](demo/) folder):
 
