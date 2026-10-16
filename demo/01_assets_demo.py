@@ -32,7 +32,7 @@ from substrateinterface.exceptions import SubstrateRequestException
 # --------------------------------------------------------------------------
 
 # NODE_URL = "ws://127.0.0.1:9944"
-NODE_URL = "wss://testnetv3-node.feso-apps.xyz"
+NODE_URL = "wss://test-node-v3.portaldot.dev"
 MNEMONIC = "couch divert chest fan ridge length theory tool ethics soldier frame cabbage"
 
 ASSET_ID = 3

@@ -47,7 +47,7 @@ print('\n')
 
 # Connect to the node
 portaldot = SubstrateInterface(
-    url = "wss://testnetv3-node.feso-apps.xyz",
+    url = "wss://test-node-v3.portaldot.dev",
     # url="ws://127.0.0.1:9944",
     ss58_format = 42
 )

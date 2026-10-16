@@ -3,6 +3,8 @@
 > Official PortaldotV3 Testnet documentation and sample code, provided by the Portaldot team.
 > English translation of the original document *PortaldotV3 Testnet说明文档*.
 
+> **Update (October 16, 2026):** the testnet endpoints moved to `portaldot.dev`. The old `feso-apps.xyz` endpoints are no longer in use; if you cloned this guide earlier, update your RPC URLs (MetaMask, Hardhat and the demo scripts). The Chain ID is unchanged.
+
 ## Contents
 
 1. [Basic Information](#1-basic-information)
@@ -38,10 +40,14 @@
 
 | Item | Value |
 |---|---|
-| RPC Endpoint | `wss://testnetv3-node.feso-apps.xyz` |
-| Node Explorer | https://node-console.feso-apps.xyz/ |
+| RPC Endpoint | `wss://test-node-v3.portaldot.dev` |
+| EVM RPC Endpoint | `https://test-evm-rpc-v3.portaldot.dev` |
+| Chain ID (EVM) | `420420777` |
+| Node Explorer | https://node-console.portaldot.dev |
 | Token Symbol | `tPOTv3` |
 | Token Decimals | `14` |
+
+**Getting testnet tokens:** the first batch of testnet tokens is being distributed to hackathon participants, to the native POT address (starting with `5`) provided at registration. If you did not submit an address, open a support ticket on the Portaldot Discord with a screenshot of your hackathon registration/participation and your correct native POT address.
 
 ### 1.2 Node Explorer
 
@@ -217,7 +223,7 @@ See [`03_nfts_demo.py`](demo/03_nfts_demo.py). It covers the following scenarios
 | Item | Value |
 |---|---|
 | Network | PortaldotV3 Testnet |
-| RPC Endpoint | `https://testnetv3-eth-rpc.feso-apps.xyz` |
+| RPC Endpoint | `https://test-evm-rpc-v3.portaldot.dev` |
 | Chain ID | `420420777` |
 | Symbol | `tPOTv3` |
 
@@ -228,7 +234,7 @@ Add a custom network as follows:
 | MetaMask field | Value |
 |---|---|
 | Network name | `PortaldotV3 Testnet` |
-| Default RPC URL | `https://testnetv3-eth-rpc.feso-apps.xyz` |
+| Default RPC URL | `https://test-evm-rpc-v3.portaldot.dev` |
 | Chain ID | `420420777` |
 | Currency symbol | `tPOTv3` |
 | Block explorer URL | *(leave empty)* |
@@ -248,7 +254,7 @@ const config: HardhatUserConfig = {
   solidity: '0.8.24',
   networks: {
     polkadotTestnet: {
-      url: 'https://testnetv3-eth-rpc.feso-apps.xyz',
+      url: 'https://test-evm-rpc-v3.portaldot.dev',
       chainId: 420420777,
       accounts: [vars.get('PRIVATE_KEY')],
     },

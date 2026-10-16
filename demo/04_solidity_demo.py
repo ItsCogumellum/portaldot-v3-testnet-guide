@@ -236,7 +236,7 @@ def decode_revive_call_result(raw_hex: str) -> dict:
 # ------------------------------------------------------------------
 
 # NODE_WS_URL = "ws://127.0.0.1:9944"
-NODE_WS_URL = "wss://testnetv3-node.feso-apps.xyz"
+NODE_WS_URL = "wss://test-node-v3.portaldot.dev"
 
 CONTRACT_ADDRESS = (
     "0x32514F81C9FA7D61A0f799Bf87bB432F27CEA881"  # TODO: replace with the actual contract address
