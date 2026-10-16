@@ -241,6 +241,8 @@ Add a custom network as follows:
 
 ![MetaMask network settings](images/05-metamask-network.png)
 
+> The screenshot above still shows the old RPC URL. Use the value from the table: `https://test-evm-rpc-v3.portaldot.dev`.
+
 #### 3.1.3 Hardhat
 
 ```ts
